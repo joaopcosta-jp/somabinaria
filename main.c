@@ -10,21 +10,21 @@ int main(void) {
 
   for (i=1;i<=8;i++){
 
-  printf("Digite o primeiro numero: ");
+  printf("Digite o primeiro número: ");
   scanf("%d", &binario1[i]);
   
   }
 
   for (i=1;i<=8;i++){
 
-  printf("Digite o segundo numero: ");
+  printf("Digite o segundo número: ");
   scanf("%d", &binario2[i]);
   
   }
 
-  printf("Numero digitado: %d%d%d%d%d%d%d%d\n", binario1[1], binario1[2], binario1[3], binario1[4], binario1[5], binario1[6], binario1[7], binario1[8]);
+  printf("Primeiro número digitado: %d%d%d%d%d%d%d%d\n", binario1[1], binario1[2], binario1[3], binario1[4], binario1[5], binario1[6], binario1[7], binario1[8]);
 
-  printf("Numero digitado: %d%d%d%d%d%d%d%d\n", binario2[1], binario2[2], binario2[3], binario2[4], binario2[5], binario2[6], binario2[7], binario2[8]);
+  printf("Segundo número digitado: %d%d%d%d%d%d%d%d\n", binario2[1], binario2[2], binario2[3], binario2[4], binario2[5], binario2[6], binario2[7], binario2[8]);
 
    for (x=9, i=8;x>=0 && i>=0;x--, i--){
 
@@ -51,11 +51,8 @@ int main(void) {
 
     }
   
-  printf("Soma dos números: %d%d%d%d%d%d%d%d%d\n", res[1], res[2], res[3], res[4], res[5], res[6], res[7], res[8], res[9]);
+  printf("A soma dos números é: %d%d%d%d%d%d%d%d%d\n", res[1], res[2], res[3], res[4], res[5], res[6], res[7], res[8], res[9]);
 
-/*
-  printf("topo: %d%d%d%d%d%d%d%d%d\n", topo[1], topo[2], topo[3], topo[4], topo[5], topo[6], topo[7], topo[8], topo[9]);
-*/
   return 0;
 
   }
